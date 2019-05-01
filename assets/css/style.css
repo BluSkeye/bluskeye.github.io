@@ -2416,7 +2416,7 @@ body {
     height: 100vh;
     background-image: url("../img/banner/banner.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    /* background-attachment: fixed; */
     background-position: 50% 50%;
     background-size: cover;
 }
