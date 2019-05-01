@@ -244,25 +244,21 @@ pre {
 .column-three,
 .column-four {
     -webkit-column-gap: 40px;
-    -moz-column-gap: 40px;
     column-gap: 40px;
 }
 
 .column-two {
     -webkit-column-count: 2;
-    -moz-column-count: 2;
     column-count: 2;
 }
 
 .column-three {
     -webkit-column-count: 3;
-    -moz-column-count: 3;
     column-count: 3;
 }
 
 .column-four {
     -webkit-column-count: 4;
-    -moz-column-count: 4;
     column-count: 4;
 }
 
@@ -1156,7 +1152,8 @@ pre {
         top: 0;
         width: 100%;
         background: #fff;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+                box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     }
 
     .menuzord-responsive .menuzord-menu>li.nav-divider {
@@ -1196,7 +1193,8 @@ pre {
     .menuzord-menu .dropdown,
     .l-navbar-wrapper_has-sticky .l-navbar,
     .l-navbar_s-left {
-        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+                box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
     }
 
     .logo-brand {
@@ -1570,7 +1568,6 @@ pre {
  ===============================================*/
 .navigation-is-open main {
     -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
     transform: translateX(100%);
 }
 
@@ -1603,7 +1600,6 @@ pre {
     width: 20px;
     height: 2px;
     -webkit-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background-color: #fff;
 }
@@ -1632,19 +1628,15 @@ pre {
 
 .cd-nav-trigger .cd-nav-icon::before {
     -webkit-transform: translateY(-6px);
-    -ms-transform: translateY(-6px);
     transform: translateY(-6px);
     -webkit-transform-origin: right top;
-    -ms-transform-origin: right top;
     transform-origin: right top;
 }
 
 .cd-nav-trigger .cd-nav-icon::after {
     -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
     transform: translateY(6px);
     -webkit-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     transform-origin: right bottom;
 }
 
@@ -1669,7 +1661,6 @@ pre {
 
 .navigation-is-open .cd-nav-trigger {
     -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -1685,13 +1676,11 @@ pre {
 
 .navigation-is-open .cd-nav-trigger .cd-nav-icon::before {
     -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .navigation-is-open .cd-nav-trigger .cd-nav-icon::after {
     -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
@@ -1742,7 +1731,6 @@ pre {
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
     transform: translateZ(0);
     transform: translateX(-50%);
 
@@ -1765,7 +1753,6 @@ pre {
     -webkit-transition-timing-function: cubic-bezier(.82, .01, .77, .78);
     transition-timing-function: cubic-bezier(.82, .01, .77, .78);
     -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
     transform: translateX(0);
 }
 
@@ -1899,7 +1886,6 @@ pre {
     height: auto;
     padding: 100px 5%;
     -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
     transform: translateX(0);
 }
 
@@ -1922,7 +1908,6 @@ pre {
     right: 40px;
     bottom: auto;
     -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -1949,14 +1934,12 @@ pre {
     display: inline-block;
     float: right;
     -webkit-transform: scale(.6);
-    -ms-transform: scale(.6);
     transform: scale(.6);
 }
 
 .no-touch #cd-vertical-nav a:hover span,
 .no-touch #cd-vertical-nav li.active span {
     -webkit-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
 }
 
@@ -1979,7 +1962,6 @@ pre {
     transition: transform .2s, background-color .5s;
     transition: transform .2s, background-color .5s, -webkit-transform .2s;
     -webkit-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     border-radius: 50%;
     background-color: #ababab;
@@ -1994,7 +1976,6 @@ pre {
     transition: transform .2s, opacity .2s;
     transition: transform .2s, opacity .2s, -webkit-transform .2s;
     -webkit-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
     opacity: 0;
     color: #7e7e7e;
@@ -2013,7 +1994,8 @@ pre {
     height: 44px;
     border-radius: .25em;
     background: rgba(255, 255, 255, .9);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
 }
 
 .touch .cd-nav-trigger span {
@@ -2025,7 +2007,6 @@ pre {
     width: 4px;
     height: 4px;
     -webkit-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     border-radius: 50%;
     background-color: #3e3947;
@@ -2066,10 +2047,8 @@ pre {
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     -webkit-transform: scale(0);
-    -ms-transform: scale(0);
     transform: scale(0);
     -webkit-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     transform-origin: right bottom;
     border-radius: .25em;
     background-color: rgba(255, 255, 255, .9);
@@ -2096,7 +2075,6 @@ pre {
 
 .touch #cd-vertical-nav.open {
     -webkit-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
 }
 
@@ -2120,14 +2098,12 @@ pre {
 .touch #cd-vertical-nav.open+.cd-nav-trigger span::before {
     top: 1px;
     -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .touch #cd-vertical-nav.open+.cd-nav-trigger span::after {
     bottom: 0;
     -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 
@@ -2240,7 +2216,8 @@ body.left-nav-fixed {
 }
 
 .left-nav-fixed header.sticky .header-sticky {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .left-nav-fixed header.sticky .header-sticky,
@@ -2595,7 +2572,6 @@ body {
     -webkit-transition: all .3s;
     transition: all .3s;
     -webkit-transform: translateY(-55%);
-    -ms-transform: translateY(-55%);
     transform: translateY(-55%);
     opacity: 0;
 }
@@ -2607,7 +2583,6 @@ body {
     -webkit-transition: all .3s;
     transition: all .3s;
     -webkit-transform: translateY(45%);
-    -ms-transform: translateY(45%);
     transform: translateY(45%);
     text-align: center;
     opacity: 0;
@@ -2886,7 +2861,6 @@ body {
     height: 10px;
     cursor: pointer;
     -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     text-indent: -9999px;
     border: 1px solid #fff;
@@ -3132,7 +3106,6 @@ body {
     left: 50%;
     width: 100%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -3618,14 +3591,16 @@ header li.nav-icon .cart-table-list a {
 .product-grid input {
     height: 40px;
     border-radius: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .product-grid input:focus,
 .product-grid .form-control:focus,
 .portfolio-meta .form-control:focus {
     border-color: #000;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .product-grid button.btn,
@@ -3642,7 +3617,8 @@ header li.nav-icon .cart-table-list a {
 .product-grid .form-control,
 .p-quantity .form-control,
 .portfolio-meta .form-control {
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .p-quantity {
@@ -3855,7 +3831,8 @@ header li.nav-icon .cart-table-list a {
     border: none;
     border-radius: 0;
     background-color: #fff;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .shop-view-mode {
@@ -4095,13 +4072,15 @@ header li.nav-icon .cart-table-list a {
     width: 100% !important;
     height: 40px;
     border-radius: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .search-row input:focus {
     border-color: #333;
     outline: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .widget {
@@ -4294,7 +4273,8 @@ comments-list
 
 .blog-comments .form-control {
     border-radius: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .blog-comments .form-control:focus {
@@ -4805,7 +4785,8 @@ comments-list
 
 .login .form-control {
     height: 40px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .login .form-group {
@@ -4939,12 +4920,14 @@ comments-list
 .form-control {
     border: 1px solid #e5e5e5;
     border-radius: 3px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .form-control:focus {
     border-color: #222;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .contact-comments .form-control {
@@ -5609,7 +5592,6 @@ address p {
 
 .decor-category a:hover img {
     -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
 
@@ -5754,7 +5736,6 @@ address p {
 
 .lift-off_show {
     -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
 }
@@ -5762,7 +5743,6 @@ address p {
 .lift-off_hide {
     visibility: hidden;
     -webkit-transform: translateY(40px);
-    -ms-transform: translateY(40px);
     transform: translateY(40px);
     opacity: 0;
 }
@@ -6146,7 +6126,8 @@ Table of contents
         position: absolute;
         top: 50%;
         left: 46%;
-        transform: translate(-46%, -16%);
+        -webkit-transform: translate(-46%, -16%);
+                transform: translate(-46%, -16%);
         margin-top: 10px;
     }
 
@@ -7051,4 +7032,4 @@ Table of contents
     .count-down-alt .c-grid {
         margin: 10px;
     }
-}
+}}
