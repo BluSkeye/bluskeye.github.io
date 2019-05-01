@@ -54,7 +54,7 @@
 /*==============================================
  Our Story Background
  ===============================================*/
-.our-story {
+ .our-story {
     color: #fff;
     font-size: 30px;
     line-height: 30pt;
@@ -244,22 +244,26 @@ pre {
 .column-three,
 .column-four {
     -webkit-column-gap: 40px;
-    column-gap: 40px;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
 }
 
 .column-two {
     -webkit-column-count: 2;
-    column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
 }
 
 .column-three {
     -webkit-column-count: 3;
-    column-count: 3;
+    -moz-column-count: 3;
+         column-count: 3;
 }
 
 .column-four {
     -webkit-column-count: 4;
-    column-count: 4;
+    -moz-column-count: 4;
+         column-count: 4;
 }
 
 .m-top-0,
@@ -1152,8 +1156,7 @@ pre {
         top: 0;
         width: 100%;
         background: #fff;
-        -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-                box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     }
 
     .menuzord-responsive .menuzord-menu>li.nav-divider {
@@ -1193,8 +1196,7 @@ pre {
     .menuzord-menu .dropdown,
     .l-navbar-wrapper_has-sticky .l-navbar,
     .l-navbar_s-left {
-        -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
-                box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
     }
 
     .logo-brand {
@@ -1994,8 +1996,7 @@ pre {
     height: 44px;
     border-radius: .25em;
     background: rgba(255, 255, 255, .9);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
 }
 
 .touch .cd-nav-trigger span {
@@ -2216,8 +2217,7 @@ body.left-nav-fixed {
 }
 
 .left-nav-fixed header.sticky .header-sticky {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .left-nav-fixed header.sticky .header-sticky,
@@ -3591,16 +3591,14 @@ header li.nav-icon .cart-table-list a {
 .product-grid input {
     height: 40px;
     border-radius: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .product-grid input:focus,
 .product-grid .form-control:focus,
 .portfolio-meta .form-control:focus {
     border-color: #000;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .product-grid button.btn,
@@ -3617,8 +3615,7 @@ header li.nav-icon .cart-table-list a {
 .product-grid .form-control,
 .p-quantity .form-control,
 .portfolio-meta .form-control {
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .p-quantity {
@@ -3831,8 +3828,7 @@ header li.nav-icon .cart-table-list a {
     border: none;
     border-radius: 0;
     background-color: #fff;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .shop-view-mode {
@@ -4072,15 +4068,13 @@ header li.nav-icon .cart-table-list a {
     width: 100% !important;
     height: 40px;
     border-radius: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .search-row input:focus {
     border-color: #333;
     outline: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .widget {
@@ -4273,8 +4267,7 @@ comments-list
 
 .blog-comments .form-control {
     border-radius: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .blog-comments .form-control:focus {
@@ -4785,8 +4778,7 @@ comments-list
 
 .login .form-control {
     height: 40px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .login .form-group {
@@ -4920,14 +4912,12 @@ comments-list
 .form-control {
     border: 1px solid #e5e5e5;
     border-radius: 3px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .form-control:focus {
     border-color: #222;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .contact-comments .form-control {
