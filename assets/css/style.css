@@ -2414,7 +2414,7 @@ body {
 
 .parallax {
     height: 100vh;
-    background-image: url("../img/banner/Banner.jpg");
+    background-image: url("../img/banner/banner.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
