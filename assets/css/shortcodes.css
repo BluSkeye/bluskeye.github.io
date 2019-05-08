@@ -95,8 +95,12 @@
 -----------------------------------------------------------------*/
 .page-title.background-title {
     height: auto; 
-    padding: 50px 0;
-    background-image: url(../img/banner/C2\ 1920px.jpg);
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../img/banner/banner.jpg);
     /*background-attachment: fixed;*/
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -2658,7 +2662,7 @@ dl.toggle.time-line:before {
 .half-txt {
     display: inline-block;
     width: 60%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     color: #7e7e7e; 
     line-height: 25px;
 }

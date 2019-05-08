@@ -6619,6 +6619,9 @@ Table of contents
     .page-title {
         text-align: center;
     }
+    .our-story {
+        margin-bottom: 50px !important;
+    }
 
     .page-title .breadcrumb {
         position: relative !important;
