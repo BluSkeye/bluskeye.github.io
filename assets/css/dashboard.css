@@ -17,7 +17,7 @@
 
 .wide_table
 {
-    width: 60%;
+    width: 70%;
 }
 
 .narrow_table
@@ -26,3 +26,17 @@
 }
 
 .dash_content tr:not(:first-child):hover {background-color: rgb(125, 218, 241);}
+
+.table_float_left
+{
+    float: left;
+}
+
+.table_float_right
+{
+    float: right;
+}
+
+.float_clear {
+    clear: both;
+}
