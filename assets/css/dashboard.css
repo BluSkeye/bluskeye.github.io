@@ -34,6 +34,11 @@
     margin: auto;
 }
 
+.table_container:after
+{
+    clear: both;
+}
+
 .column
 {
     float:left;
@@ -41,7 +46,7 @@
 
 .table_float_left, .table_float_right
 {
-    width: 30%;
+    width: 45%;
 }
 
 .table_space_centre
@@ -54,9 +59,4 @@
 .table_float_right .narrow_table
 {
     width: 100%;
-}
-
-
-.float_clear {
-    clear: both;
 }
