@@ -39,6 +39,15 @@
     width: 50%;
 }
 
+.table_float_left .narrow_table
+{
+    width: 15%;
+}
+.table_float_right .narrow_table
+{
+    width: 15%;
+}
+
 .table_float_right
 {
     float: right;
