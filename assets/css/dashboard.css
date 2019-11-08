@@ -26,14 +26,3 @@
 }
 
 .dash_content tr:not(:first-child):hover {background-color: rgb(125, 218, 241);}
-
-.wide_table td:hover::after, .wide_table th:hover::after {
-  content: "";
-  position: absolute;
-  background-color: rgb(125, 218, 241);
-  left: 0;
-  top: -5000px;
-  height: 10000px;
-  width: 100%;
-  z-index: -1;
-}
