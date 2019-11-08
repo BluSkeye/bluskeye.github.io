@@ -20,7 +20,11 @@
     width: 70%;
 }
 
-.table_float_left .narrow_table,
+.table_float_left .narrow_table
+{
+    width: 30%;
+}
+
 .table_float_right .narrow_table
 {
     width: 30%;
