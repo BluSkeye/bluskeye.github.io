@@ -15,4 +15,14 @@
     text-align: center;
 }
 
+.wide_table
+{
+    width: 60%;
+}
+
+.narrow_table
+{
+    width: 30%;
+}
+
 .dash_content tr:not(:first-child):hover {background-color: rgb(125, 218, 241);}
