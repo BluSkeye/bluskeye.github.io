@@ -1,0 +1,6 @@
+.dash_content table {
+    border-collapse: collapse;
+}  
+.dash_content table, th, td {
+    border: 1px solid black;
+  }
