@@ -27,7 +27,7 @@
 
 .dash_content tr:not(:first-child):hover {background-color: rgb(125, 218, 241);}
 
-.dash_content td:hover::after, .dash_content th:hover::after {
+.wide_table td:hover::after, .wide_table th:hover::after {
   content: "";
   position: absolute;
   background-color: rgb(125, 218, 241);
