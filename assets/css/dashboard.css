@@ -1,6 +1,17 @@
+.dash_content
+{
+    text-align: center;
+}
 .dash_content table {
     border-collapse: collapse;
+    margin: auto;
 }  
 .dash_content table, th, td {
     border: 1px solid black;
-  }
+}
+
+.dash_content th {
+    height: 50px;
+}
+
+.dash_content tr:hover {background-color: #f5f5f5;}
