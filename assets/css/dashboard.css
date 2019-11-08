@@ -29,30 +29,32 @@
 
 .table_container
 {
-    width:100%;
+    width:70%;
     overflow: hidden;
 }
 
-.table_float_left
+.column
 {
-    float: left;
-    width: 50%;
+    float:left;
 }
 
-.table_float_left .narrow_table
+.table_float_left, .table_float_right
 {
-    width: 60%;
+    width: 30/70%;
 }
+
+.table_space_centre
+{
+    width: 10/70%;
+}
+
+
+.table_float_left .narrow_table,
 .table_float_right .narrow_table
 {
-    width: 60%;
+    width: 100%;
 }
 
-.table_float_right
-{
-    float: right;
-    width: 50%;
-}
 
 .float_clear {
     clear: both;
