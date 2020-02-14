@@ -2413,7 +2413,7 @@ body {
 }
 
 .parallax {
-    height: 100vh;
+    height: 70vh;
     /*background-image: url("../img/banner/banner.jpg");*/
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
