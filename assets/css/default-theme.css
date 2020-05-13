@@ -148,3 +148,16 @@ a,
         background: #a9dcf8;
     }
 }
+.videoInsert {
+    position: relative; 
+    margin-left: 5%;
+    margin-right: 5%;
+    right: 0; 
+    bottom: 0;
+    min-width: 90%; 
+    width: 90%; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
